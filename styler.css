@@ -10,7 +10,7 @@ body {
 #menu {
     display: flex;
     justify-content: space-between;
-    background-color: #638075;
+    background-color: #dfdfdf;
     padding: 25px;
 }
 
@@ -21,78 +21,148 @@ body {
 .navegacao ul {
     list-style: none;
     display: flex;
-    color: #d3d3d3;
-
+    color:  #828282;
 }
-.navegacao ul{
-    font-weight: bold;
+
+.navegacao ul li {
     margin-right: 20px;
     font-size: 18px;
+    font-weight: bold;
 }
-#sobre{
+
+#sobre {
     text-align: center;
-    background-color: #638075;
+   background-color: #828282;
     padding: 60px 20px;
 }
 
-
 .sobre-imagem {
-    width:200px;
+    width: 200px;
     height: 200px;
-    border-radius:  50%;
+    border-radius: 50%;
     object-fit: cover;
-    align-items: center;
-    
 }
 
-.sobre-nome{
-    color: bisque;
+.sobre-nome {
+    color: antiquewhite ;
     font-size: 36px;
     margin-top: 20px;
-
 }
-.sobre-titulo{
-    color: #638075;
+
+.sobre-titulo {
+    color: #C5C0C0;
     font-size: 24px;
-    margin-top: 19px;
+    margin-top: 10px;
 }
-   
 
-.sobre-descricao{
-    font-size:18px;
-    line-height: 1,6;
-    margin-top: 16px;
-    
-
+.sobre-descricao {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 10px;
 }
- 
-#formacao{
 
+#formacao {
+    padding: 50px 150px;
 }
-.formacao-titulo{
-    color: #638075;
+
+.formacao-titulo {
+    color: hwb(0 55% 45%);
     font-size: 30px;
-    margin: ;
-
+    margin-bottom: 30px;
 }
-.formacao-lista{
-    width: 500px;
+
+.formacao-lista {
+   width: 600px;
     margin: 0 auto;
 }
 
-.formacao-lista h3{
-    font-size: 2px;
-    color: bisque;
+.formacao-lista h3 {
+    font-size: 20px;
+    color: #828282;
     margin-bottom: 10px;
-    width: 150;
+    width: 180px;
 }
 
 .formacao-lista a {
-    color: aliceblue;
-    font-size: 15px;
-    margin bottom:15px;
-}
+    color: #1b549e;
+    font-size: 20px;
+    margin-bottom: 15px;
+} 
 
 .formacao-lista p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+#Experiencias{
+    background-color: #828282;
+    padding: 50px 150px;
+}
 
+.Experiencias-titulo{
+    color: antiquewhite;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin: 0% auto;
+}
+.Experiencias-lista{
+    width: 600px;
+    margin: 0%auto;
+}
+.Experiencia-lista h3{
+    font-size: 20px;
+    color: #828282;
+    margin-bottom: 10px;
+    width: 180px;
+    }
+
+    .Experiencia-lista a{
+        color: #2F80ED;
+    font-size: 20px;
+    margin-bottom: 15px;
+    }
+
+    .Experiencia-lista p{
+     margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+#Contato{
+padding:50px 150px;
+}
+
+.Contato-titulo{
+     color: hsl(0, 0%, 59%);
+     font-size: 30px;
+     margin-bottom: 30px;
+}
+
+.Contato-formu{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin: 0% auto;
+}
+
+.Contato-grupoinput{
+    display: flex;
+    justify-content: space-between;
+
+}
+.Contato-input{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.Contato-input input{
+padding: 10px;
+font-size:19px ;
+border: 1px solid;
+}
+
+.Contato-input textarea{
+ padding: 10px;
+font-size:19px ;
+border: 1px solid;
 }
