@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: #638075;
+    padding: 25px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.navegacao ul {
+    list-style: none;
+    display: flex;
+    color: #d3d3d3;
+
+}
+.navegacao ul{
+    font-weight: bold;
+    margin-right: 20px;
+    font-size: 18px;
+}
+#sobre{
+    text-align: center;
+    background-color: #638075;
+    padding: 60px 20px;
+}
+
+
+.sobre-imagem {
+    width:200px;
+    height: 200px;
+    border-radius:  50%;
+    object-fit: cover;
+    align-items: center;
+    
+}
+
+.sobre-nome{
+    color: bisque;
+    font-size: 36px;
+    margin-top: 20px;
+
+}
+.sobre-titulo{
+    color: #638075;
+    font-size: 24px;
+    margin-top: 19px;
+}
+   
+
+.sobre-descricao{
+    font-size:18px;
+    line-height: 1,6;
+    margin-top: 16px;
+    
+
+}
+ 
+#formacao{
+
+}
+.formacao-titulo{
+    color: #638075;
+    font-size: 30px;
+    margin: ;
+
+}
+.formacao-lista{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.formacao-lista h3{
+    font-size: 2px;
+    color: bisque;
+    margin-bottom: 10px;
+    width: 150;
+}
+
+.formacao-lista a {
+    color: aliceblue;
+    font-size: 15px;
+    margin bottom:15px;
+}
+
+.formacao-lista p {
+
+}
