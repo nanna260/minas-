@@ -24,6 +24,11 @@ body {
     color:  #828282;
 }
 
+.navegacao ul li a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
 .navegacao ul li {
     margin-right: 20px;
     font-size: 18px;
@@ -153,16 +158,61 @@ padding:50px 150px;
     display: flex;
     flex-direction: column;
     flex: 1;
+    margin-bottom: 20px;
 }
 
 .Contato-input input{
 padding: 10px;
 font-size:19px ;
-border: 1px solid;
+border: 1px solid #C5C0C0;
+border-radius: 10px;
+margin-right: 20px;
 }
 
 .Contato-input textarea{
  padding: 10px;
 font-size:19px ;
-border: 1px solid;
+border: 1px solid #C5C0C0;
+border-radius: 10px;
+
+.Contato-input label{
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+}
+.btn-enviar{
+        background-color: hsl(0, 0%, 59% );
+    padding: 15px;
+     color: #828282;
+    font-size:23px;
+    font-weight: bold;
+    border: nome;
+    border-radius: 20px;
+}
+.rodape{
+    background-color: #C5C0C0;
+    display: flex;
+    padding: 30px 40px;
+    justify-content:  space-between;
+    color: #828282;
+    align-items: center;
+}
+.rodape-contato a {
+    color: antiquewhite;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    text-decoration: none;
+
+}
+.rodape-contato{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.rodape-contato img{
+vertical-align: middle;
+}
+.logo-minas{
+ height: 80px;
 }
