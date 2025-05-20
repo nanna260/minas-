@@ -10,23 +10,25 @@ body {
 #menu {
     display: flex;
     justify-content: space-between;
-    background-color: #dfdfdf;
+    background-color: #000000;
     padding: 25px;
 }
 
 .logo {
     font-size: 24px;
+    color: #ffffff;
 }
 
 .navegacao ul {
     list-style: none;
     display: flex;
-    color:  #828282;
+    color: antiquewhite ;
+    
 }
 
 .navegacao ul li a {
-    color: antiquewhite;
-    text-decoration: none;
+    color: antiquewhite ;
+     text-decoration: none;
 }
 
 .navegacao ul li {
@@ -37,8 +39,9 @@ body {
 
 #sobre {
     text-align: center;
-   background-color: #828282;
+   background-color: #000000;
     padding: 60px 20px;
+    
 }
 
 .sobre-imagem {
@@ -55,7 +58,7 @@ body {
 }
 
 .sobre-titulo {
-    color: #C5C0C0;
+    color: #656d4f;
     font-size: 24px;
     margin-top: 10px;
 }
@@ -64,6 +67,7 @@ body {
     font-size: 16px;
     line-height: 1.6;
     margin-top: 10px;
+    color: #ffffff;
 }
 
 #formacao {
@@ -71,7 +75,7 @@ body {
 }
 
 .formacao-titulo {
-    color: hwb(0 55% 45%);
+    color: #656d4f;
     font-size: 30px;
     margin-bottom: 30px;
 }
@@ -83,7 +87,7 @@ body {
 
 .formacao-lista h3 {
     font-size: 20px;
-    color: #828282;
+    color: #656d4f;
     margin-bottom: 10px;
     width: 180px;
 }
@@ -98,14 +102,15 @@ body {
     margin-top: 10px;
     margin-bottom: 30px;
     font-size: 20px;
+   
 }
 #Experiencias{
-    background-color: #828282;
+    background-color:rgb(0, 0, 0) ;
     padding: 50px 150px;
 }
 
 .Experiencias-titulo{
-    color: antiquewhite;
+    color: #656d4f;
     font-size: 30px;
     margin-bottom: 30px;
     margin: 0% auto;
@@ -114,30 +119,31 @@ body {
     width: 600px;
     margin: 0%auto;
 }
-.Experiencia-lista h3{
+.Experiencias-lista h3{
     font-size: 20px;
-    color: #828282;
+    color: #656d4f;
     margin-bottom: 10px;
     width: 180px;
     }
 
-    .Experiencia-lista a{
+    .Experiencias-lista a{
         color: #2F80ED;
     font-size: 20px;
     margin-bottom: 15px;
     }
 
-    .Experiencia-lista p{
+    .Experiencias-lista p{
      margin-top: 10px;
     margin-bottom: 30px;
     font-size: 20px;
+    color: #ffffff;
 }
 #Contato{
 padding:50px 150px;
 }
 
 .Contato-titulo{
-     color: hsl(0, 0%, 59%);
+     color: #656d4f;
      font-size: 30px;
      margin-bottom: 30px;
 }
@@ -172,7 +178,7 @@ margin-right: 20px;
 .Contato-input textarea{
  padding: 10px;
 font-size:19px ;
-border: 1px solid #C5C0C0;
+border: 1px solid #ffffff;
 border-radius: 10px;
 
 .Contato-input label{
@@ -181,24 +187,24 @@ border-radius: 10px;
 }
 }
 .btn-enviar{
-        background-color: hsl(0, 0%, 59% );
+        background-color: #656d4f;
     padding: 15px;
-     color: #828282;
+     color: #ffffff;
     font-size:23px;
     font-weight: bold;
     border: nome;
     border-radius: 20px;
 }
 .rodape{
-    background-color: #C5C0C0;
+    background-color:#656d4f;
     display: flex;
     padding: 30px 40px;
     justify-content:  space-between;
-    color: #828282;
+    color: #ffffff;
     align-items: center;
 }
 .rodape-contato a {
-    color: antiquewhite;
+    color:#ffffff;
     font-size: 20px;
     margin-left: 15px;
     margin-bottom: 10px;
